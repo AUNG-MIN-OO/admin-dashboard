@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #060608;
+    color: white;
+}
+.content{
+    overflow: auto;
+}
+.nav-bar{
+    position: sticky;
+    z-index: 2000;
+    top: 0;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-item{
+    padding: 0.5rem 0 0.5rem 0;
+    border-radius: 5px;
+}
+.menu-item:hover{
+    background-color: #6c757d;
+}
+.menu-item.active{
+    background-color: #6c757d;
+}
+.menu-item a{
+    text-decoration: none;
+}
+.menu-item span i{
+    font-size: 1.5rem;
+    margin-left: 3px;
+}
