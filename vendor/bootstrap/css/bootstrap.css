@@ -6,29 +6,30 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
+  --bs-blue: #556ee6;
+  --bs-indigo: #564ab1;
   --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
+  --bs-pink: #e83e8c;
+  --bs-red: #f46a6a;
+  --bs-orange: #f1734f;
+  --bs-yellow: #f1b44c;
+  --bs-green: #34c38f;
+  --bs-teal: #050505;
+  --bs-cyan: #50a5f1;
   --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gray: #c3cbe4;
+  --bs-gray-dark: #eff2f7;
+  --bs-primary: #556F00;
+  --bs-secondary: #c3cbe4;
+  --bs-success: #34c38f;
+  --bs-info: #50a5f1;
+  --bs-warning: #f1b44c;
+  --bs-danger: #f46a6a;
+  --bs-pink: #e83e8c;
+  --bs-light: #32394e;
+  --bs-dark: #eff2f7;
+  --bs-font-sans-serif: "Poppins",sans-serif;
+  --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
@@ -7370,6 +7371,10 @@ textarea.form-control-lg {
   color: #fff !important;
 }
 
+.text-button{
+  background-color: #556ee6;
+}
+
 .text-body {
   color: #212529 !important;
 }
@@ -7428,6 +7433,18 @@ textarea.form-control-lg {
 
 .bg-white {
   background-color: #fff !important;
+}
+
+.bg-blue {
+  background-color: #2a3042 !important;
+}
+
+.bg-background {
+  background-color: #222736;
+}
+
+.bg-button {
+  background-color: #556ee6;
 }
 
 .bg-transparent {

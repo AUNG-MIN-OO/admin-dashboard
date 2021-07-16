@@ -1,19 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body{
-    background: #060608;
     color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Padauk', sans-serif;
 }
-.content{
+/*side bar css*/
+.sidebar hr{
+    margin: 12px 0 !important;
     overflow: auto;
-}
-.nav-bar{
-    position: sticky;
-    z-index: 2000;
-    top: 0;
 }
 .menu ul{
     list-style: none;
@@ -36,4 +36,34 @@ body{
 .menu-item span i{
     font-size: 1.5rem;
     margin-left: 3px;
+}
+.spacer{
+    height: 15px;
+}
+/*side bar css end*/
+/*main content css*/
+.content{
+    overflow: auto;
+    background-color: #222736;
+}
+.nav-bar{
+    position: sticky;
+    z-index: 2000;
+    top: 0;
+}
+.dropdown img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.card-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+.cUp-icon{
+    font-size: 3rem;
+    color: #556ee6;;
 }
