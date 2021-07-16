@@ -9,6 +9,30 @@ for (let i = 0; i < menuItem.length; i++) {
         this.className += ' active';
     })
 }
+
+const sideBar = document.querySelector(".sidebar"),
+      showSidebarBtn = document.querySelector(".show-sidebar"),
+      hideSidebarBtn = document.querySelector(".hide-sidebar");
+showSidebarBtn.addEventListener('click',function (){
+    sideBar.classList.add("open-sidebar");
+})
+hideSidebarBtn.addEventListener('click',function (){
+    sideBar.classList.remove("open-sidebar");
+})
+
+$(".search-btn").click(function (){
+    $(".search-form").fadeIn(1000,function (){
+        $(".search-form").toggleClass("show-searchForm")
+    })
+
+    // $(".search-form").slideToggle({top:"80px"})
+    // $(".search-btn").addClass("close").removeClass("search-btn")
+    // $(".search-icon").addClass("feather-x").removeClass("feather-search");
+})
+$(".close").click(function (){
+    $(".search-form").animate({top:"-80px"})
+})
+
 // counter up
 $('.counter').counterUp({
     delay: 10,
@@ -44,3 +68,16 @@ document.getElementById('myChart'),
 config
 );
 
+// ckeditor
+$('.summernote').summernote({
+    placeholder: 'Hello Bootstrap 4',
+    tabsize: 2,
+    height: 500,
+    toolbar:[
+
+        ['style', ['bold', 'italic', 'underline', 'clear']],
+        ['font', ['strikethrough', 'superscript', 'subscript']],
+        ['fontsize', ['fontsize']],
+
+    ]
+});
